@@ -1,0 +1,15 @@
+[project]
+name = "playground-pdm"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "yasunori0418", email = "yasunori.kirin0418@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
