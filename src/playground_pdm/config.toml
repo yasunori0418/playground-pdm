@@ -1,0 +1,18 @@
+text = 'abc'
+int = 123
+ary = ['a', 'b', 'c']
+
+[a]
+content = 'a.content'
+
+[b]
+content = 'b.content'
+
+[b.c]
+content = 'c.content'
+
+[[contents]]
+url = "https://github.com"
+
+[[contents]]
+url = "https://gitlab.com"
