@@ -21,3 +21,6 @@ build-backend = "setuptools.build_meta"
 exclude = [ ".venv" ]
 venvPath = "."
 venv = ".venv"
+
+[tool.pdm.scripts]
+main = 'python -m playground-pdm'
