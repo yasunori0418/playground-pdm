@@ -23,4 +23,4 @@ venvPath = "."
 venv = ".venv"
 
 [tool.pdm.scripts]
-main = 'python -m playground-pdm'
+main = 'python -m playground_pdm'
