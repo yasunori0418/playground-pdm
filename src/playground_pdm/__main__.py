@@ -31,7 +31,6 @@ def log():
 @log()
 def test_deco():
     print("デコレーターテスト")
-    raise Exception("error test")
 
 
 if __name__ == "__main__":
