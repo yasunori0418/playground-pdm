@@ -1,6 +1,9 @@
 from loguru import logger
 from functools import wraps
 import sys
+import os
+import tomllib
+import pprint
 
 
 def log():
@@ -33,5 +36,14 @@ def test_deco():
     print("デコレーターテスト")
 
 
+@log()
+def toml_load():
+    dirname = os.path.dirname(__file__)
+    with open(os.path.join(dirname, "config.toml"), "rb") as file:
+        toml_data = tomllib.load(file)
+    pprint.pprint(toml_data)
+
+
 if __name__ == "__main__":
     test_deco()
+    toml_load()
