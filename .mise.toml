@@ -4,4 +4,4 @@ python = "latest"
 dasel = "latest"
 
 [env]
-VIRTUAL_ENV = "$HOME/src/github.com/yasunori0418/playground-pdm/.venv"
+VIRTUAL_ENV = "/home/yasunori/src/github.com/yasunori0418/playground-pdm/.venv"
