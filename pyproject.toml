@@ -24,3 +24,8 @@ venv = ".venv"
 
 [tool.pdm.scripts]
 main = 'python -m playground_pdm'
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "debugpy>=1.8.0",
+]
