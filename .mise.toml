@@ -1,7 +1,0 @@
-[tools]
-pdm = "latest"
-python = "latest"
-dasel = "latest"
-
-[env]
-VIRTUAL_ENV = "/home/yasunori/src/github.com/yasunori0418/playground-pdm/.venv"
